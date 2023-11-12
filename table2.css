@@ -1,0 +1,52 @@
+table, td, tr, th {
+
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px 20px;
+    font-size: 20px;
+    
+    }
+    
+
+    /* styling the button for approved */
+    input[type=button]{
+        border-radius: 3px;
+    }
+    
+    /* |||||||||||||||||||||| */
+
+    th:nth-child(2){
+        width: 60%;
+    }
+    /* styling the container session */
+    
+    .container {
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    
+    }
+    
+    table {
+    
+     width: 70%;
+     
+    }
+    
+    th {
+     background-color: dodgerblue;
+     padding: 20px;
+     color: white;
+     /* text-align: center; */
+     text-align: left;
+    font-size: 20px;
+    }
+    
+    td {
+     text-align: justify;
+    }
+    tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.3);
+    }
